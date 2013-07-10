@@ -26,6 +26,10 @@ group :production do
   gem 'pg', '0.12.2'
 end
 
+group :test do
+  gem 'spork'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
